@@ -79,6 +79,7 @@ input, textarea {
     margin: 0;
     font-family: 'Rock Salt', 'Julius Sans One',sans-serif;
     font-size: 2em;
+    white-space: nowrap;
 }
 
 .lead {
@@ -185,11 +186,22 @@ ul.intro-social-buttons {
 
 .content-section-a>.container>.col-sm-6>.img-repsonsive {
     margin: 15px auto;
+    border: 1px solid #2c7384;
+}
+
+.content-section-c {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-c>.container>.col-sm-6>.img-repsonsive {
+    margin: 15px auto;
 }
 
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
     margin: auto;
+    border: 1px solid #2c7384;
 }
 
 .content-section-b {
@@ -212,6 +224,10 @@ ul.intro-social-buttons {
 .portitem {
     padding: 15px 0 15px 0;
     border-top: 1px solid  #2c7384;
+}
+
+.content-section-b > .container > .portitem > .col-md-3 {
+    margin-top: 20px;
 }
 
 .project {
@@ -238,7 +254,6 @@ ul.intro-social-buttons {
     color: #ffffff;
 }
 
-
 .projectname>h4{
     padding: 10px;
     margin: 0;
@@ -248,7 +263,9 @@ ul.intro-social-buttons {
     opacity: 0.9;
 }
 
-
+.content-section-c > .container > .row > .col-sm-6 {
+    padding: 0;
+}
 
 #mySubmit {
     color: #ffffff;
@@ -267,18 +284,19 @@ ul.intro-social-buttons {
 .connect {
     text-align: center;
     border: 1px solid  #2c7384;
-    margin: 2.5em 15px 0 15px;
+    margin-top: 2.5em;
     padding: 0 0 10px 0;
+    background-color: #ffffff;
 }
 
-.content-section-a > .container > .row > .connect > ul.intro-social-buttons {
+.content-section-c > .container > .row > .connect > ul.intro-social-buttons {
     margin: 10px;
     display: block;
     list-style: none;
-    padding:0;
+    padding: 0;
 } 
 
-.content-section-a > .container > .row > .connect > ul.intro-social-buttons > li {
+.content-section-c > .container > .row > .connect > ul.intro-social-buttons > li {
     margin: 10px 0 10px 0;
 }
 
